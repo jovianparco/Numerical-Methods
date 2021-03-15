@@ -203,6 +203,8 @@ def regula_falsi(funct, N_roots, pos = range(0,100), a_range = range(-2,10,1), b
     print(f'  Roots   |   Position ')
     for num in range(len(roots)):
       print(f'  {roots[num]}   |     {posn[num]}')
+  else:
+    return posn, roots
     
 ##----------------------------------------------------------
 
